@@ -7,10 +7,10 @@ export default function About() {
                         hallo hallo hallo!
                     </h1>
                     <h1>
-                        i'm frick wu, a computer science student @ tmu. i was previously a swe @thescore and @mpbsd. i am now looking for a new grad 2026 swe role!
+                        i&apos;m frick wu, a computer science student @ tmu. i was previously a swe @thescore and @mpbsd. i am now looking for a new grad 2026 swe role!
                     </h1>
                     <h1>
-                        yeah, i'll add more stuff to this later :D
+                        yeah, i&apos;ll add more stuff to this later :D
                     </h1>
                 </div>
             </div>
