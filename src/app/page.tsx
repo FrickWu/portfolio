@@ -1,13 +1,13 @@
 import About from "@/components/About";
-// import Navbar from "@/components/Navbar";
+import Experience from "@/components/Experience";
+import Projects from "@/components/Projects";
 
 export default function HomePage() {
   return (
-    <div>
-      <main className="container mx-auto px-4 py-8">
-        {/* <Navbar /> */}
-        <About />
-      </main>
+    <div className="min-h-screen bg-white">
+      <About />
+      <Experience />
+      <Projects />
     </div>
   );
 }
