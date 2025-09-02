@@ -10,12 +10,12 @@ export default function About() {
                         className="inline-block"
                     >
                         <h1 className="text-4xl font-bold text-gray-900 p-8 mb-6 hover:text-blue-600 transition-colors cursor-pointer">
-                            Hello, I'm Frick Wu
+                            Hello, I am Frick Wu
                         </h1>
                     </a>
                     <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                        I'm a retired competitor turned Computer Science student at TMU with experience as a Software Engineer at theScore and MPBSD. 
-                        I'm passionate about building innovative solutions and currently seeking a new grad 2026 SWE role. 
+                        I am a retired competitor turned Computer Science student at TMU with experience as a Software Engineer at theScore and MPBSD. 
+                        I am passionate about building innovative solutions and currently seeking a new grad 2026 SWE role. 
                         I enjoy developing applications, exploring new technologies, and melting my brain.
                     </p>
                 </div>
