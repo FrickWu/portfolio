@@ -12,7 +12,6 @@ export default function Navbar() {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
       
-      // Simple section detection - check which section header is closest to top
       const sections = [
         { id: 'about', element: document.getElementById('about') },
         { id: 'experience', element: document.getElementById('experience') },
@@ -25,9 +24,8 @@ export default function Navbar() {
       sections.forEach(({ id, element }) => {
         if (element) {
           const rect = element.getBoundingClientRect();
-          const distance = Math.abs(rect.top - 100); // Distance from navbar
+          const distance = Math.abs(rect.top - 100);
           
-          // If this section is closer to the navbar position
           if (distance < minDistance && rect.top <= 300) {
             minDistance = distance;
             current = id;
@@ -122,15 +120,7 @@ export default function Navbar() {
               >
                 LinkedIn
               </Link>
-              <Link
-                href="https://drive.google.com/file/d/1x5uVe2gZU0G_BHfXl4XKoyxJF7L5T1_n/view?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-gradient-to-r from-slate-700 to-slate-800 dark:from-blue-600 dark:to-blue-700 text-white px-4 py-2 rounded-full hover:from-slate-800 hover:to-slate-900 dark:hover:from-blue-700 dark:hover:to-blue-800 transition-all duration-300 font-medium text-sm shadow-md hover:shadow-lg"
-              >
-                Resume
-              </Link>
-              
+
               <div className="relative">
                 <button
                   onClick={handleContactClick}
